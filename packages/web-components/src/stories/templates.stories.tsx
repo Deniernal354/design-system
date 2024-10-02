@@ -81,7 +81,7 @@ const InternalTemplate = ({ isLoggedIn, username }) => {
       </cbp-app-header>
     </header>
 
-    <cbp-container sx='{"padding":"1rem var(--cbp-responsive-spacing-outer)"}'>
+    <cbp-container sx='{"padding":"1rem var(--cbp-responsive-spacing-outer)", "flex-grow":"1" }'>
       <main id="main" tabindex="-1">
         <cbp-typography tag="h1" divider="underline" sx='{"margin-bottom":"var(--cbp-space-5x)"}'>
           Page Title
